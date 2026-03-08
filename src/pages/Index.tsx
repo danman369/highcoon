@@ -3,12 +3,10 @@ import HeroSection from "@/components/HeroSection";
 import ChaptersSection from "@/components/ChaptersSection";
 import TerpenesSection from "@/components/TerpenesSection";
 import HighModeSection from "@/components/HighModeSection";
-import FloatingTerpenes3D from "@/components/FloatingTerpenes3D";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <FloatingTerpenes3D />
       <Navbar />
       <HeroSection />
       <ChaptersSection />
