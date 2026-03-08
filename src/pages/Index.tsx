@@ -15,6 +15,7 @@ const Index = () => {
       <ChaptersSection />
       <TerpenesSection />
       <HighModeSection />
+      <HighcoonVoiceAgent />
 
       {/* Footer */}
       <footer className="border-t border-border py-12 px-6 text-center">
