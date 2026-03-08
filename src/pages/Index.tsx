@@ -3,10 +3,12 @@ import HeroSection from "@/components/HeroSection";
 import ChaptersSection from "@/components/ChaptersSection";
 import TerpenesSection from "@/components/TerpenesSection";
 import HighModeSection from "@/components/HighModeSection";
+import MoleculeParticles from "@/components/MoleculeParticles";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      <MoleculeParticles />
       <Navbar />
       <HeroSection />
       <ChaptersSection />
