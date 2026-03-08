@@ -18,6 +18,7 @@ const Navbar = () => {
             { label: "Story", id: "chapters" },
             { label: "Terpenes", id: "terpenes" },
             { label: "High Mode", id: "highmode" },
+            { label: "Talk", id: "voice" },
           ].map((item) => (
             <button
               key={item.id}
