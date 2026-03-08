@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ChaptersSection from "@/components/ChaptersSection";
 import TerpenesSection from "@/components/TerpenesSection";
 import HighModeSection from "@/components/HighModeSection";
+import HighcoonVoiceAgent from "@/components/HighcoonVoiceAgent";
 import MoleculeParticles from "@/components/MoleculeParticles";
 
 const Index = () => {
